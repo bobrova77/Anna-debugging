@@ -68,7 +68,7 @@ function hideAllMessages() {
   }
 }
 
-funtion setup() {
+funtion setup() { 
   // Get random number
   targetNumber = getRandomNumber(1, 100);
   console.log(`target number: ${targetNumber}`);
@@ -86,5 +86,4 @@ funtion setup() {
 
 submitButton.addEventListener('click', checkGuess);
 resetButton.addEventListener('click', setup);
-
 setup();
